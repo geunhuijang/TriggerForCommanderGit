@@ -4,6 +4,7 @@
 #include "TriggerForCommanderHUD.h"
 #include "TriggerForCommanderCharacter.h"
 #include "UObject/ConstructorHelpers.h"
+#include "TriggerForCommander.h"
 
 ATriggerForCommanderGameMode::ATriggerForCommanderGameMode()
 	: Super()
