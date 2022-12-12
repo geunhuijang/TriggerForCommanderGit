@@ -13,6 +13,10 @@ class ATriggerForCommanderCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+	/** arrow mesh: 1st person view (arms; seen only by self) */
+	//UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	//class USkeletalMeshComponent* ArrowComponent;
+
 	/** Pawn mesh: 1st person view (arms; seen only by self) */
 	UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
 	class USkeletalMeshComponent* Mesh1P;
