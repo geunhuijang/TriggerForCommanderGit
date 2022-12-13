@@ -14,5 +14,5 @@ ATriggerForCommanderGameMode::ATriggerForCommanderGameMode()
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 	// use our custom HUD class
-	HUDClass = ATriggerForCommanderHUD::StaticClass();
+	//HUDClass = ATriggerForCommanderHUD::StaticClass();
 }
