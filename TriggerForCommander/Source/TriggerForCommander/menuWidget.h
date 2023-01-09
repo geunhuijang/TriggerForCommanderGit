@@ -24,7 +24,7 @@ public:
 		class UButton* start_button;
 
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
-		class UButton* setting_button;
+		class UButton* option_button;
 
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UButton* exit_button;
